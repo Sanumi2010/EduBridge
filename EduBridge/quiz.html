@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Quiz - EduBridge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">EduBridge</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quiz.html" class="active">Career Quiz</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="goals.html">My Goals</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <header class="page-header">
+            <h1>Find Your Perfect Career Path</h1>
+            <p>Answer a few questions to get a personalized recommendation.</p>
+        </header>
+
+        <div class="quiz-container">
+            <form id="career-quiz">
+                <div class="question">
+                    <p>1. Which activity sounds the most interesting to you?</p>
+                    <label><input type="radio" name="q1" value="tech"> Building a website or an app.</label>
+                    <label><input type="radio" name="q1" value="creative"> Designing a poster or writing a story.</label>
+                    <label><input type="radio" name="q1" value="social"> Organizing a school event or helping a friend.</label>
+                </div>
+
+                <div class="question">
+                    <p>2. When facing a problem, you prefer to:</p>
+                    <label><input type="radio" name="q2" value="tech"> Analyze data and find a logical solution.</label>
+                    <label><input type="radio" name="q2" value="creative"> Brainstorm new, unconventional ideas.</label>
+                    <label><input type="radio" name="q2" value="social"> Talk it through with others and collaborate.</label>
+                </div>
+
+                <div class="question">
+                    <p>3. Which school subjects do you enjoy the most?</p>
+                    <label><input type="radio" name="q3" value="tech"> Mathematics, Physics, or Computer Science.</label>
+                    <label><input type="radio" name="q3" value="creative"> Art, Literature, or Music.</label>
+                    <label><input type="radio" name="q3" value="social"> History, Psychology, or a Social Science.</label>
+                </div>
+
+                <button type="button" id="quiz-btn">Show My Career Path</button>
+            </form>
+
+            <div id="result-container">
+                <!-- Result will be inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 EduBridge. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
